@@ -19,10 +19,9 @@
             <input type="text" placeholder="Kullanıcı Adı">
             <input type="password" placeholder="Şifre">
             <button style="margin: 5px;" type="submit" id="login-button">Giriş</button><br/><br/>
-            <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Facebook</button>
-            <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Google+</button>
-            <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Instagram</button>
-            <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Instagram</button>
+            <button style="margin: 2px; width: 100px; font-family: Georgia1, Georgia, serif;" type="submit" id="login-button">Facebook</button>
+            <button style="margin: 2px; width: 100px; font-family: Times New Roman, Times New Roman, Times, serif;" type="submit" id="login-button">Google+</button>
+            <button style="margin: 2px; width: 100px; font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;" type="submit" id="login-button">Instagram</button>
         </form>
     </div>
 
