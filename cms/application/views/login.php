@@ -13,12 +13,12 @@
 <body>
 <div class="wrapper">
     <div class="container">
-        <h1>Welcome</h1>
+        <h1>Hoşgeldin</h1>
 
         <form class="form">
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
-            <button type="submit" id="login-button">Login</button>
+            <input type="text" placeholder="Kullanıcı Adı">
+            <input type="password" placeholder="Şifre">
+            <button type="submit" id="login-button">Giriş</button>
         </form>
     </div>
 
