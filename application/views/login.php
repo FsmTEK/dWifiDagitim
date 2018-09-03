@@ -22,6 +22,7 @@
             <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Facebook</button>
             <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Google+</button>
             <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Instagram</button>
+            <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Instagram</button>
         </form>
     </div>
 
