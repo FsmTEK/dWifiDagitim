@@ -18,7 +18,9 @@
         <form class="form">
             <input type="text" placeholder="Kullanıcı Adı">
             <input type="password" placeholder="Şifre">
-            <button type="submit" id="login-button">Giriş</button>
+            <button style="margin: 5px;" type="submit" id="login-button">Giriş</button><br/>
+            <button style="margin: 5px;" type="submit" id="login-button">Facebook</button><br/>
+            <button style="margin: 5px;" type="submit" id="login-button">Google+</button><br/>
         </form>
     </div>
 
