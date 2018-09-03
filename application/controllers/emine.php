@@ -13,6 +13,7 @@ class emine extends CI_Controller{
 
     public function index()
     {
-        $this->load->view('giris');
+        echo "Test";
+        //$this->load->view('giris');
     }
 }
