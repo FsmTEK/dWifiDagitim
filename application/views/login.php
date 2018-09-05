@@ -26,7 +26,7 @@
         </div>
         <div class="col-md-12">
             <div class="col-md-6 ortala">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="facebook button">
                         <i class="icon">
                             <i class="fa fa-facebook">
@@ -41,7 +41,7 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="twitter button">
                         <i class="icon">
                             <i class="fa fa-twitter">
@@ -65,52 +65,36 @@
                         </script>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="google button">
+                        <i class="icon">
+                            <i class="fa fa-google-plus">
+                            </i>
+                        </i>
+                        <div class="slide">
+                            <p>
+                                google+
+                            </p>
+                        </div>
+                        <!-- Place this tag where you want the +1 button to render. -->
+                        <div class="g-plusone" data-size="medium">
+                        </div>
+
+                        <!-- Place this tag after the last +1 button tag. -->
+                        <script type="text/javascript">
+                            (function() {
+                                    var po = document.createElement('script');
+                                    po.type = 'text/javascript';
+                                    po.async = true;
+                                    po.src = 'https://apis.google.com/js/plusone.js';
+                                    var s = document.getElementsByTagName('script')[0];
+                                    s.parentNode.insertBefore(po, s);
+                                }
+                            )();
+                        </script>
+                    </div>
+                </div>
             </div>
-
-
-                <div class="google button">
-                    <i class="icon">
-                        <i class="fa fa-google-plus">
-                        </i>
-                    </i>
-                    <div class="slide">
-                        <p>
-                            google+
-                        </p>
-                    </div>
-                    <!-- Place this tag where you want the +1 button to render. -->
-                    <div class="g-plusone" data-size="medium">
-                    </div>
-
-                    <!-- Place this tag after the last +1 button tag. -->
-                    <script type="text/javascript">
-                        (function() {
-                                var po = document.createElement('script');
-                                po.type = 'text/javascript';
-                                po.async = true;
-                                po.src = 'https://apis.google.com/js/plusone.js';
-                                var s = document.getElementsByTagName('script')[0];
-                                s.parentNode.insertBefore(po, s);
-                            }
-                        )();
-                    </script>
-                </div>
-                <div class="linkedin button">
-                    <i class="icon">
-                        <i class="fa fa-linkedin">
-                        </i>
-                    </i>
-                    <div class="slide">
-                        <p>
-                            linkedin
-                        </p>
-                    </div>
-                    <script type="IN/Share" data-counter="right">
-                    </script>
-                    <script src="//platform.linkedin.com/in.js" type="text/javascript">
-                        lang: en_US
-                    </script>
-                </div>
 
         </div>
     </div>
