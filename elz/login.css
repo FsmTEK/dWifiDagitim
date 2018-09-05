@@ -18,7 +18,7 @@
 
 .wrapper {
     background: #50a3a2;
-    background: -webkit-linear-gradient(top login-buttoneft, #50a3a2 0%, #53e3a6 100%);
+    background: -webkit-linear-gradient(top llogin-buttoneft, #50a3a2 0%, #53e3a6 100%);
     position: absolute;
     top: 25%;
     left: 0;
@@ -149,8 +149,8 @@ form button {
     width: 160px;
     height: 160px;
     -webkit-animation-delay: 11s;
-    animation-delay: 11s;}
-
+    animation-delay: 11s;
+}
 @-webkit-keyframes square {
     0% {
         -webkit-transform: translateY(0);
@@ -177,6 +177,7 @@ form button {
     padding: 14px 150px;
     width: 490px;
     margin: 250px auto 0;
+    width: 200%;
 
     }
 
