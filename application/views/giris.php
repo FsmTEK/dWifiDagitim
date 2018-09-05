@@ -16,10 +16,12 @@
 <body>
 <div class="wrapper">
     <div class="container">
-        <h1>Hoşgeldin</h1>
-
+        <h1>Hosgeldin</h1>
+     <div class="col-md-12">
+         <button class="form-control"  type="button" id="login-button" >Kayıtlı Kullanıcı</button><br/><br/>
+     </div>
         <form class="form">
-            <button style="margin: 5px; color: deepskyblue;" type="submit" id="login-button" >Login</button><br/><br/>
+
         </form>
     </div>
     <ul class="bg-bubbles">
@@ -35,6 +37,7 @@
         <li></li>
     </ul>
 </div>
+
 <div id="buttons">
     <div class="facebook button">
         <i class="icon">
