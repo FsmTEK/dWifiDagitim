@@ -21,7 +21,7 @@ body { background-color: #50a3a2 }
     background: #DCE0E0;
     position: relative;
     display: block;
-    float: left;
+    /*float: left;*/
     height: 40px;
     margin: 0 7px;
     overflow: hidden;
