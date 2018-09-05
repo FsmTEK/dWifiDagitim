@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="col-md-12">
-            <div class="col-md-6 ortala">
+            <div class="col-md-6">
                 <div class="col-md-4">
                     <div class="facebook button">
                         <i class="icon">
