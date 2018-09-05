@@ -1,11 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
-<<<<<<< Updated upstream
 
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
-=======
-@import "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
->>>>>>> Stashed changes
 @font-face {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -18,46 +14,11 @@
     font-weight: 200;
     src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-weight: 300;
-}
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    font-weight: 300;
-}
-body ::-webkit-input-placeholder {
-    /* WebKit browsers */
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    font-weight: 300;
-}
-body :-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    opacity: 1;
-    font-weight: 300;
-}
-body ::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    opacity: 1;
-    font-weight: 300;
-}
-body :-ms-input-placeholder {
-    /* Internet Explorer 10+ */
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    font-weight: 300;
-}
+
+
 .wrapper {
     background: #50a3a2;
-    background: linear-gradient(to bottom right, #50a3a2 0%, #1fc6e3 100%);
+    background: -webkit-linear-gradient(top llogin-buttoneft, #50a3a2 0%, #53e3a6 100%);
     position: absolute;
     top: 25%;
     left: 0;
@@ -211,26 +172,14 @@ form button {
     }
 }
 
-<<<<<<< Updated upstream
 #buttons {
     border-radius: 5px;
     padding: 14px 150px;
-    width: 500px;
+    width: 490px;
     margin: 250px auto 0;
+    width: 200%;
 
     }
-=======
-
-#buttons {
-    border-radius: 5px;
-    padding: 14px 250px;
-    width: 660px;
-    overflow: hidden;
-    margin: 350px auto 0;
-    box-shadow:0 2px 3px rgba(71, 71, 71, 0.31);
-}
-
->>>>>>> Stashed changes
 
 .button {
     background: #DCE0E0;
@@ -238,36 +187,27 @@ form button {
     display: block;
     float: left;
     height: 40px;
-<<<<<<< Updated upstream
     margin: 2px;
     overflow: hidden;
     width: 150px;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    top: -350px;}
-=======
-    margin: 0 7px;
-    overflow: hidden;
-    width: 150px;
-    border-radius: 3px;
     -o-border-radius: 3px;
     -ms-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+    top: -350px;
+    right: -350px;
 }
->>>>>>> Stashed changes
 
 .icon {
     display: block;
     float: left;
     position: relative;
     z-index: 3;
-    height: 100%;
+    height: 100px;
     vertical-align: top;
     width: 38px;
     -moz-border-radius-topleft: 3px;
-<<<<<<< Updated upstream
     -moz-border-radius-topright: 0;
     -moz-border-radius-bottomright: 0;
     -moz-border-radius-bottomleft: 3px;
@@ -277,21 +217,15 @@ form button {
 
 .icon i {
     color: #fff;
-    line-height: 42px;}
-=======
-    -moz-border-radius-topright: 0px;
-    -moz-border-radius-bottomright: 0px;
+    line-height: 42px;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
     -moz-border-radius-bottomleft: 3px;
-    -webkit-border-radius: 3px 0px 0px 3px;
-    border-radius: 3px 0px 0px 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
     text-align: center;
 }
 
-.icon i {
-    color: #fff;
-    line-height: 42px;
-}
->>>>>>> Stashed changes
 
 .slide {
     z-index: 2;
@@ -301,22 +235,12 @@ form button {
     left: 38px;
     position: absolute;
     width: 112px;
-<<<<<<< Updated upstream
     -moz-border-radius-topleft: 0;
     -moz-border-radius-topright: 3px;
     -moz-border-radius-bottomright: 3px;
     -moz-border-radius-bottomleft: 0;
     -webkit-border-radius: 0 3px 3px 0;
     border-radius: 0 3px 3px 0;}
-=======
-    -moz-border-radius-topleft: 0px;
-    -moz-border-radius-topright: 3px;
-    -moz-border-radius-bottomright: 3px;
-    -moz-border-radius-bottomleft: 0px;
-    -webkit-border-radius: 0px 3px 3px 0px;
-    border-radius: 0px 3px 3px 0px;
-}
->>>>>>> Stashed changes
 
 .slide p {
     font-family: Open Sans;
@@ -330,25 +254,16 @@ form button {
     position: absolute;
     text-align: center;
     top: 10px;
-<<<<<<< Updated upstream
     width: 100%;}
-=======
-    width: 100%;
-}
->>>>>>> Stashed changes
 
 .button .slide {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
-<<<<<<< Updated upstream
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;}
-=======
-    -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-}
->>>>>>> Stashed changes
+    -ms-transition: all 0.2s ease-in-out;}
+
+
 
 .facebook iframe {
     display: block;
@@ -356,13 +271,9 @@ form button {
     right: 16px;
     top: 10px;
     z-index: 1;
-<<<<<<< Updated upstream
     width: 90px !important;
     }
-=======
-}
 
->>>>>>> Stashed changes
 
 .google #___plusone_0 {
     width: 70px !important;
@@ -370,7 +281,6 @@ form button {
     right: 15px;
     position: absolute;
     display: block;
-<<<<<<< Updated upstream
     z-index: 1;}
 
 .facebook:hover .slide {
@@ -384,32 +294,7 @@ form button {
     background: #305c99;}
 
 .google .icon, .google .slide {
-    background: #d24228;}
-
-
-
-
-
-=======
-    z-index: 1;
-}
-
-.facebook:hover .slide {
-    left: 150px;
-}
-
-
-.google:hover .slide {
-    bottom: -40px;
-}
-
-.facebook .icon, .facebook .slide {
-    background: #305c99;
-}
-
-
-
-.google .icon, .google .slide {
     background: #d24228;
+
 }
->>>>>>> Stashed changes
+
