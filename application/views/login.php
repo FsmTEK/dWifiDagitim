@@ -18,7 +18,16 @@
     <div class="container">
         <h1>Hoşgeldin</h1>
         <form class="form">
+<<<<<<< Updated upstream
             <button type="submit" id="login-button">Login</button>
+=======
+            <input type="text" placeholder="Kullanıcı Adı">
+            <input type="password" placeholder="Şifre">
+            <button style="margin: 5px;" type="submit" id="login-button">Giriş</button><br/><br/>
+            <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Facebook</button>
+            <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Google+</button>
+            <button style="margin: 2px; width: 100px;" type="submit" id="login-button">Instagram</button>
+>>>>>>> Stashed changes
         </form>
     </div>
     <ul class="bg-bubbles">
