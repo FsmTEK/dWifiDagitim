@@ -23,9 +23,8 @@
             <div class="col-md-6 ortala">
                 <button type="button" class="form-control">Test</button>
             </div>
-        </div>
         <div class="col-md-12">
-            <div class="col-md-6 ortala">
+            <div class="col-md-6 orta">
                 <div class="col">
                     <div class="facebook button">
                         <i class="icon">
@@ -77,7 +76,7 @@
                             </p>
                         </div>
                         <!-- Place this tag where you want the +1 button to render. -->
-                        <div class="g-plusone" data-size="medium">
+                        <div class="g-plusone" data-size="large">
                         </div>
 
                         <!-- Place this tag after the last +1 button tag. -->
@@ -95,7 +94,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>

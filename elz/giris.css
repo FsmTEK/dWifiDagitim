@@ -1,34 +1,27 @@
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
-body { background-color: #50a3a2 }
+body { background-color: #53e3a6;}
 .asagi { margin-top: 200px;}
 .kalin {font-weight: bolder;}
 .ortala {margin: auto;}
+.orta {margin: auto; width: 300px; }
 
 #buttons {
     border-radius: 5px;
-    padding: 14px 7px;
-    background: white;
+    padding: 14px 250px;
     width: 660px;
-    overflow: hidden;
-    margin: 150px auto 0;
-    box-shadow:0 2px 3px rgba(71, 71, 71, 0.31);
-    width: 200%;
+    margin: 250px auto 0;
 }
-
 
 .button {
     background: #DCE0E0;
     position: relative;
     display: block;
-    /*float: left;*/
     height: 40px;
-    margin: 0 7px;
+    margin: 5px;
     overflow: hidden;
     width: 150px;
     border-radius: 3px;
-    -o-border-radius: 3px;
-    -ms-border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
 }
@@ -42,11 +35,11 @@ body { background-color: #50a3a2 }
     vertical-align: top;
     width: 38px;
     -moz-border-radius-topleft: 3px;
-    -moz-border-radius-topright: 0px;
-    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
     -moz-border-radius-bottomleft: 3px;
-    -webkit-border-radius: 3px 0px 0px 3px;
-    border-radius: 3px 0px 0px 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
     text-align: center;
 }
 
@@ -63,12 +56,12 @@ body { background-color: #50a3a2 }
     left: 38px;
     position: absolute;
     width: 112px;
-    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topleft: 0;
     -moz-border-radius-topright: 3px;
     -moz-border-radius-bottomright: 3px;
-    -moz-border-radius-bottomleft: 0px;
-    -webkit-border-radius: 0px 3px 3px 0px;
-    border-radius: 0px 3px 3px 0px;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
 }
 
 .slide p {
@@ -120,13 +113,6 @@ body { background-color: #50a3a2 }
     z-index: 1;
 }
 
-.linkedin .IN-widget {
-    top: 10px;
-    right: 22px;
-    position: absolute;
-    display: block;
-    z-index: 1;
-}
 
 .facebook:hover .slide {
     left: 150px;
@@ -140,9 +126,6 @@ body { background-color: #50a3a2 }
     bottom: -40px;
 }
 
-.linkedin:hover .slide {
-    left: -150px;
-}
 
 .facebook .icon, .facebook .slide {
     background: #305c99;
@@ -154,10 +137,6 @@ body { background-color: #50a3a2 }
 
 .google .icon, .google .slide {
     background: #d24228;
-}
-
-.linkedin .icon, .linkedin .slide {
-    background: #007bb6;
 }
 .twitter-share-button {
     margin-left: 60px;
