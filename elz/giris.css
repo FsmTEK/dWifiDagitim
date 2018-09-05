@@ -19,18 +19,9 @@ body { background-color: #50a3a2 }
 
 .button {
     background: #DCE0E0;
-    /*position: relative;*/
+    position: relative;
     /*display: block;*/
-    float: left;
-    height: 40px;
-    margin: 0 7px;
-    overflow: hidden;
-    width: 150px;
-    border-radius: 3px;
-    -o-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+
 }
 
 .icon {
