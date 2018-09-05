@@ -16,7 +16,7 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center" style="vertical-align: middle;">
         <label style="font-size: xx-large; text-align: center;">Hoşgeldiniz</label>
         </div>
     </div>
