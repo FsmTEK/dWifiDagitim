@@ -16,8 +16,13 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-12 text-center">
-        <label style="font-size: xx-large; text-align: center; vertical-align: middle;">Hoşgeldiniz</label>
+        <div class="col-md-12 text-center asagi">
+        <label style="font-size: xx-large; text-align: center; vertical-align: middle;" class="kalin">Hoşgeldiniz</label>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-12">
+                <button type="button" class="form-control">Test</button>
+            </div>
         </div>
     </div>
 </div>
