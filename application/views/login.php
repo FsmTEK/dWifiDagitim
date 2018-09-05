@@ -25,6 +25,17 @@
             </div>
         </div>
         <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="col-md-4">
+                    <button type="button" class="form-control">Test</button>
+                </div>
+                <div class="col-md-4">
+                    <button type="button" class="form-control">Test</button>
+                </div>
+                <div class="col-md-4">
+                    <button type="button" class="form-control">Test</button>
+                </div>
+            </div>
             <div class="col-md-6 ortala">
                 <div class="col-md-4">
                     <div class="facebook button">
