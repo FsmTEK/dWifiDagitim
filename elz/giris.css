@@ -20,7 +20,7 @@ body { background-color: #50a3a2 }
 .button {
     background: #DCE0E0;
     position: relative;
-    display: block;
+    /*display: block;*/
     float: left;
     height: 40px;
     margin: 0 7px;
