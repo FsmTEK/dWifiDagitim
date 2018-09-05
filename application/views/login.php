@@ -16,7 +16,7 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-sm">
+        <div class="col-md 12">
             One of three columns
         </div>
         <div class="col-sm">
