@@ -16,7 +16,9 @@
 <body>
 <div class="container">
     <div class="row">
+        <div class="col-md-12 text-center">
         <label style="font-size: xx-large; text-align: center;">Hoşgeldiniz</label>
+        </div>
     </div>
 </div>
 </body>
