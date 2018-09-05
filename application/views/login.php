@@ -16,15 +16,7 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            One of three columns
-        </div>
-        <div class="col-sm">
-            One of three columns
-        </div>
-        <div class="col-sm">
-            One of three columns
-        </div>
+        <label style="font-size: xx-large; text-align: center;">Hoşgeldiniz</label>
     </div>
 </div>
 </body>
