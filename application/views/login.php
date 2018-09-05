@@ -19,8 +19,8 @@
         <div class="col-md-12 text-center asagi">
         <label style="font-size: xx-large; text-align: center; vertical-align: middle;" class="kalin">Hoşgeldiniz</label>
         </div>
-        <div class="col-md-12 text-center">
-            <div class="col-md-6 ">
+        <div class="col-md-12">
+            <div class="col-md-6 ortala">
                 <button type="button" class="form-control">Test</button>
             </div>
         </div>
