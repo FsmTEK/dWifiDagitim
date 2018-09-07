@@ -14,17 +14,27 @@
     <link rel="stylesheet" href="<?php echo base_url('elz/giris.css');?>">
 </head>
 <body>
+
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center asagi">
-        <label style="font-size: xx-large; text-align: center; vertical-align: middle;" class="kalin">Hoşgeldiniz</label>
+        <label style="color: white; font-size: xx-large; text-align: center; vertical-align: middle;" class="kalin">Hoşgeldiniz</label>
         </div>
         <div class="col-md-12">
             <div class="col-md-6 ortala">
-                <button type="button" class="form-control">Test</button>
+                <button type="button" class="form-control" style="color: #53e3a6; background-color: white;" data-toggle="dropdown">Kayıtlı Kullanıcı<span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <form class="form">
+                            <input type="text" placeholder="Kullanıcı Adı">
+                            <input type="password" placeholder="Şifre">
+                            <button type="submit" id="login-button" class="btn btn-outline-info">Giriş</button>
+                        </form>
+                    </li>
+                </ul>
             </div>
-        <div class="col-md-12">
-            <div class="col-md-6 orta">
+        <div class="col-md-12" id="buttons">
+            <div class="btn-group btn-group-left">
                 <div class="col">
                     <div class="facebook button">
                         <i class="icon">
@@ -97,5 +107,16 @@
         </div>
     </div>
 </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
 </body>
 </html>

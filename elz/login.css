@@ -18,7 +18,7 @@
 
 .wrapper {
     background: #50a3a2;
-    background: -webkit-linear-gradient(top llogin-buttoneft, #50a3a2 0%, #53e3a6 100%);
+    background: -webkit-linear-gradient(top login-button-left, #50a3a2 0%, #53e3a6 100%);
     position: absolute;
     top: 25%;
     left: 0;
