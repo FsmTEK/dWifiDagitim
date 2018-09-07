@@ -1,202 +1,36 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
-
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
-@font-face {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 200;
-    src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
-}
-
-
-.wrapper {
-    background: #50a3a2;
-    background: -webkit-linear-gradient(top login-button-left, #50a3a2 0%, #53e3a6 100%);
-    position: absolute;
-    top: 25%;
-    left: 0;
-    width: 100%;
-    height: 160%;
-    margin-top: -200px;
-    overflow: hidden;
-}
-.wrapper.form-success .container h1 {
-    -webkit-transform: translateY(85px);
-    transform: translateY(85px);
-}
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 250px 0;
-    height: 400px;
-    text-align: center;
-}
-.container h1 {
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
-    font-weight: 200;
-}
-form {
-    padding: 20px 0;
-    position: relative;
-    z-index: 2;
-}
-form button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    outline: 0;
-    background-color: white;
-    border: 0;
-    padding: 10px 15px;
-    color: #53e3a6;
-    border-radius: 3px;
-    width: 250px;
-    cursor: pointer;
-    font-size: 18px;
-    transition-duration: 0.25s;
-}
-.bg-bubbles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-.bg-bubbles li {
-    position: absolute;
-    list-style: none;
-    display: block;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0.15);
-    bottom: -16px;
-    -webkit-animation: square 30s infinite;
-    animation: square 30s infinite;
-    transition-timing-function: linear;
-}
-.bg-bubbles li:nth-child(1) {
-    left: 10%;
-}
-.bg-bubbles li:nth-child(2) {
-    left: 20%;
-    width: 80px;
-    height: 80px;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-    -webkit-animation-duration: 17s;
-    animation-duration: 17s;
-}
-.bg-bubbles li:nth-child(3) {
-    left: 25%;
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
-}
-.bg-bubbles li:nth-child(4) {
-    left: 40%;
-    width: 60px;
-    height: 60px;
-    -webkit-animation-duration: 22s;
-    animation-duration: 22s;
-    background-color: rgba(255, 255, 255, 0.25);
-}
-.bg-bubbles li:nth-child(5) {
-    left: 70%;
-}
-.bg-bubbles li:nth-child(6) {
-    left: 80%;
-    width: 120px;
-    height: 120px;
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-.bg-bubbles li:nth-child(7) {
-    left: 32%;
-    width: 160px;
-    height: 160px;
-    -webkit-animation-delay: 7s;
-    animation-delay: 7s;
-}
-.bg-bubbles li:nth-child(8) {
-    left: 55%;
-    width: 20px;
-    height: 20px;
-    -webkit-animation-delay: 15s;
-    animation-delay: 15s;
-    -webkit-animation-duration: 40s;
-    animation-duration: 40s;
-}
-.bg-bubbles li:nth-child(9) {
-    left: 25%;
-    width: 10px;
-    height: 10px;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-    -webkit-animation-duration: 40s;
-    animation-duration: 40s;
-    background-color: rgba(255, 255, 255, 0.3);
-}
-.bg-bubbles li:nth-child(10) {
-    left: 90%;
-    width: 160px;
-    height: 160px;
-    -webkit-animation-delay: 11s;
-    animation-delay: 11s;
-}
-@-webkit-keyframes square {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    100% {
-        -webkit-transform: translateY(-700px) rotate(600deg);
-        transform: translateY(-700px) rotate(600deg);
-    }
-}
-@keyframes square {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    100% {
-        -webkit-transform: translateY(-700px) rotate(600deg);
-        transform: translateY(-700px) rotate(600deg);
-    }
-}
+body { background-color: #50a3a2 }
+.asagi { margin-top: 200px;}
+.kalin {font-weight: bolder;}
+.ortala {margin: auto;}
 
 #buttons {
     border-radius: 5px;
-    padding: 14px 150px;
-    width: 490px;
-    margin: 250px auto 0;
+    padding: 14px 7px;
+    background: white;
+    width: 660px;
+    overflow: hidden;
+    margin: 150px auto 0;
+    box-shadow:0 2px 3px rgba(71, 71, 71, 0.31);
     width: 200%;
+}
 
-    }
 
 .button {
     background: #DCE0E0;
     position: relative;
     display: block;
-    float: left;
+    /*float: left;*/
     height: 40px;
-    margin: 2px;
+    margin: 0 7px;
     overflow: hidden;
     width: 150px;
     border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
     -o-border-radius: 3px;
     -ms-border-radius: 3px;
-    top: -350px;
-    right: -350px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
 }
 
 .icon {
@@ -204,28 +38,22 @@ form button {
     float: left;
     position: relative;
     z-index: 3;
-    height: 100px;
+    height: 100%;
     vertical-align: top;
     width: 38px;
     -moz-border-radius-topleft: 3px;
-    -moz-border-radius-topright: 0;
-    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
     -moz-border-radius-bottomleft: 3px;
-    -webkit-border-radius: 3px 0 0 3px;
-    border-radius: 3px 0 0 3px;
-    text-align: center;}
+    -webkit-border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0px 0px 3px;
+    text-align: center;
+}
 
 .icon i {
     color: #fff;
     line-height: 42px;
-    -moz-border-radius-topright: 0;
-    -moz-border-radius-bottomright: 0;
-    -moz-border-radius-bottomleft: 3px;
-    -webkit-border-radius: 3px 0 0 3px;
-    border-radius: 3px 0 0 3px;
-    text-align: center;
 }
-
 
 .slide {
     z-index: 2;
@@ -235,12 +63,13 @@ form button {
     left: 38px;
     position: absolute;
     width: 112px;
-    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topleft: 0px;
     -moz-border-radius-topright: 3px;
     -moz-border-radius-bottomright: 3px;
-    -moz-border-radius-bottomleft: 0;
-    -webkit-border-radius: 0 3px 3px 0;
-    border-radius: 0 3px 3px 0;}
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 3px 3px 0px;
+}
 
 .slide p {
     font-family: Open Sans;
@@ -254,16 +83,16 @@ form button {
     position: absolute;
     text-align: center;
     top: 10px;
-    width: 100%;}
+    width: 100%;
+}
 
 .button .slide {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;}
-
-
+}
 
 .facebook iframe {
     display: block;
@@ -271,9 +100,16 @@ form button {
     right: 16px;
     top: 10px;
     z-index: 1;
-    width: 90px !important;
-    }
+}
 
+.twitter iframe {
+    width: 90px !important;
+    right: 5px;
+    top: 10px;
+    z-index: 1;
+    display: block;
+    position: absolute;
+}
 
 .google #___plusone_0 {
     width: 70px !important;
@@ -281,20 +117,49 @@ form button {
     right: 15px;
     position: absolute;
     display: block;
-    z-index: 1;}
+    z-index: 1;
+}
+
+.linkedin .IN-widget {
+    top: 10px;
+    right: 22px;
+    position: absolute;
+    display: block;
+    z-index: 1;
+}
 
 .facebook:hover .slide {
-    left: 150px;}
+    left: 150px;
+}
 
+.twitter:hover .slide {
+    top: -40px;
+}
 
 .google:hover .slide {
-    bottom: -40px;}
+    bottom: -40px;
+}
+
+.linkedin:hover .slide {
+    left: -150px;
+}
 
 .facebook .icon, .facebook .slide {
-    background: #305c99;}
+    background: #305c99;
+}
+
+.twitter .icon, .twitter .slide {
+    background: #00cdff;
+}
 
 .google .icon, .google .slide {
     background: #d24228;
-
 }
 
+.linkedin .icon, .linkedin .slide {
+    background: #007bb6;
+}
+.twitter-share-button {
+    margin-left: 60px;
+    margin-top: 10px;
+}
