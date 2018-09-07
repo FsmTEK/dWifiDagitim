@@ -11,21 +11,31 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <scprit src="<?php echo base_url('elz/login.js');?>"></scprit>
-    <link rel="stylesheet" href="<?php echo base_url('elz/giris.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('elz/login.css');?>">
 </head>
 <body>
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center asagi">
-            <label style="font-size: xx-large; text-align: center; vertical-align: middle;" class="kalin">Hoşgeldiniz</label>
+            <label style=" color: black;  font-size: xx-large; text-align: center; vertical-align: middle;" class="kalin">Hoşgeldiniz</label>
         </div>
         <div class="col-md-12">
             <div class="col-md-6 ortala">
-                <button type="button" class="form-control">Test</button>
+                <button type="button" class="form-control" style="color: black;" data-toggle="dropdown">Kayıtlı Kullanıcı<span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <form class="form" method="post">
+                            <input type="text" style="border-color: black;" placeholder="Kullanıcı Adı">
+                            <input type="password" style="border-color: black;" placeholder="Şifre">
+                            <button type="submit"  style="border-color: black; width: 200px;" class="form-control ortala">Giriş</button>
+                        </form>
+                    </li>
+                </ul>
+
             </div>
         </div>
-        <div class="col-md-12">
-            <div class="col-md-6 ortala">
+        <div class="col-md-12" id="buttons">
+            <div class="btn-group btn-group-left ortala">
                 <div class="col">
                     <div class="facebook button">
                         <i class="icon">
@@ -99,5 +109,17 @@
         </div>
     </div>
 </div>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myDIV");
+                    if(x.style.display === "none"){
+                        x.style.display = "block";
+                    }else {
+                        x.style.display = "none";
+                    }
+
+                }
+            </script>
 </body>
 </html>

@@ -1,19 +1,67 @@
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-
-body { background-color: #50a3a2 }
+body { background-color: #f4fcff;
+}
 .asagi { margin-top: 200px;}
 .kalin {font-weight: bolder;}
-.ortala {margin: auto;}
+.ortala {margin: auto;
+    color: black;
+    font-weight: bolder;}
+
+
+
+.form {
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+    width: 522px;
+}
+form input {
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 300px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 15px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+form input:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+form input:focus {
+    background-color: white;
+    width: 300px;
+    color: black;
+}
+form button {
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #53e3a6;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 300px;
+    width: 100%;
+}
+form button:hover {
+    background-color: aliceblue;
+}
+
 
 #buttons {
     border-radius: 5px;
-    padding: 14px 7px;
-    background: white;
+    padding: 40px 350px;
     width: 660px;
     overflow: hidden;
-    margin: 150px auto 0;
-    box-shadow:0 2px 3px rgba(71, 71, 71, 0.31);
+    margin: 25px auto 0;
     width: 200%;
+    margin-left: -65px;
 }
 
 
@@ -23,7 +71,7 @@ body { background-color: #50a3a2 }
     display: block;
     /*float: left;*/
     height: 40px;
-    margin: 0 7px;
+    margin: 5px;
     overflow: hidden;
     width: 150px;
     border-radius: 3px;
@@ -120,13 +168,6 @@ body { background-color: #50a3a2 }
     z-index: 1;
 }
 
-.linkedin .IN-widget {
-    top: 10px;
-    right: 22px;
-    position: absolute;
-    display: block;
-    z-index: 1;
-}
 
 .facebook:hover .slide {
     left: 150px;
@@ -140,9 +181,6 @@ body { background-color: #50a3a2 }
     bottom: -40px;
 }
 
-.linkedin:hover .slide {
-    left: -150px;
-}
 
 .facebook .icon, .facebook .slide {
     background: #305c99;
@@ -156,9 +194,6 @@ body { background-color: #50a3a2 }
     background: #d24228;
 }
 
-.linkedin .icon, .linkedin .slide {
-    background: #007bb6;
-}
 .twitter-share-button {
     margin-left: 60px;
     margin-top: 10px;
