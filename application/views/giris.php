@@ -25,9 +25,9 @@
                 <ul class="dropdown-menu">
                     <li>
                         <form class="form" method="post">
-                            <input type="text" style="border-color: black;" placeholder="Kullanıcı Adı">
-                            <input type="password" style="border-color: black;" placeholder="Şifre">
-                            <button type="submit"  style="border-color: black; width: 200px;" class="form-control ortala">Giriş</button>
+                            <input type="text" style="border-color: black; width:180px;" placeholder="Kullanıcı Adı">
+                            <input type="password" style="border-color: black; width:180px;" placeholder="Şifre">
+                            <button type="submit"  style="border-color: black; width:100px; margin-top: -40px" class="form-control orta">Giriş</button>
                         </form>
                     </li>
                 </ul>
@@ -47,10 +47,17 @@
                                 facebook
                             </p>
                         </div>
-                        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Freference%2Fplugins%2Flike&send=false&layout=button_count&width=80&show_faces=false&font&colorscheme=light&action=like&height=20&appId=568581339861351" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:20px;" allowTransparency="true">
-                        </iframe>
+                        <div class="fb-like" data-href="https://www.facebook.com/Developer-test-285103938878182/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
                     </div>
                 </div>
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = 'https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v3.1&appId=321404218423728&autoLogAppEvents=1';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
                 <div class="col">
                     <div class="twitter button">
                         <i class="icon">

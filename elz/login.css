@@ -3,11 +3,14 @@ body { background-color: #f4fcff;
 }
 .asagi { margin-top: 200px;}
 .kalin {font-weight: bolder;}
-.ortala {margin: auto;
+.ortala {margin: auto;}
+
+
+.orta {margin: auto;
     color: black;
-    font-weight: bolder;}
-
-
+    font-weight: bolder;
+    margin-right: 5px;
+}
 
 .form {
     padding: 20px 0;
@@ -19,39 +22,27 @@ form input {
     outline: 0;
     border: 1px solid rgba(255, 255, 255, 0.4);
     background-color: rgba(255, 255, 255, 0.2);
-    width: 300px;
+    width: 190px;
     border-radius: 3px;
-    padding: 10px 15px;
-    margin: 0 auto 15px auto;
-    display: block;
+    padding: 0 15px;
+    margin: 5px;
     text-align: center;
     font-size: 18px;
 }
 
-form input:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
-form input:focus {
-    background-color: white;
-    width: 300px;
-    color: black;
-}
 form button {
     outline: 0;
     background-color: white;
     border: 0;
-    padding: 10px 15px;
-    color: #53e3a6;
+    padding: 0px 15px;
     border-radius: 3px;
     cursor: pointer;
     font-size: 18px;
-    width: 300px;
-    width: 100%;
+    width: 100px;
+
+
 }
-form button:hover {
-    background-color: aliceblue;
-}
+
 
 
 #buttons {
@@ -59,7 +50,7 @@ form button:hover {
     padding: 40px 350px;
     width: 660px;
     overflow: hidden;
-    margin: 25px auto 0;
+    margin: 55px auto 0;
     width: 200%;
     margin-left: -65px;
 }
@@ -145,8 +136,8 @@ form button:hover {
 .facebook iframe {
     display: block;
     position: absolute;
-    right: 16px;
-    top: 10px;
+    right: -16px;
+    top: 5px;
     z-index: 1;
 }
 
