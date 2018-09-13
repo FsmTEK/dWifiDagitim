@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <scprit src="<?php echo base_url('elz/login.js');?>"></scprit>
     <link rel="stylesheet" href="<?php echo base_url('elz/giris.css');?>">
+
 </head>
 <body>
-
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center asagi">
@@ -46,10 +46,17 @@
                                 facebook
                             </p>
                         </div>
-                        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Freference%2Fplugins%2Flike&send=false&layout=button_count&width=80&show_faces=false&font&colorscheme=light&action=like&height=20&appId=568581339861351" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:20px;" allowTransparency="true">
-                        </iframe>
-                    </div>
+                        <div class="fb-like" data-href="https://www.facebook.com/Developer.deneme-2141705205861651/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>                    </div>
                 </div>
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = 'https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v3.1';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+
                 <div class="col">
                     <div class="twitter button">
                         <i class="icon">
@@ -61,9 +68,10 @@
                                 twitter
                             </p>
                         </div>
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="mariuCSS">
-                            Tweet
-                        </a>
+<!--                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729?text=Hadi gir artik" class="twitter-share-button">-->
+<!--                            Tweet-->
+<!--                        </a>-->
+                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729" class="twitter popup" data-show-count="false">Tweet</a>
                         <script>
                             !function(d,s,id){
                                 var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
@@ -85,22 +93,23 @@
                                 google+
                             </p>
                         </div>
-                        <!-- Place this tag where you want the +1 button to render. -->
-                        <div class="g-plusone" data-size="large">
-                        </div>
+<!--                        <!-- Place this tag where you want the +1 button to render. -->
+<!--                        <div class="g-plusone" data-size="large">-->
+<!--                        </div>-->
+                        <div class="g-plusone" data-size="standart" data-href="https://plus.google.com/113596846715607788542/posts/hFZNdtK9nrv"></div>
 
                         <!-- Place this tag after the last +1 button tag. -->
-                        <script type="text/javascript">
-                            (function() {
-                                    var po = document.createElement('script');
-                                    po.type = 'text/javascript';
-                                    po.async = true;
-                                    po.src = 'https://apis.google.com/js/plusone.js';
-                                    var s = document.getElementsByTagName('script')[0];
-                                    s.parentNode.insertBefore(po, s);
-                                }
-                            )();
-                        </script>
+<!--                        <script type="text/javascript">-->
+<!--                            (function() {-->
+<!--                                    var po = document.createElement('script');-->
+<!--                                    po.type = 'text/javascript';-->
+<!--                                    po.async = true;-->
+<!--                                    po.src = 'https://apis.google.com/js/plusone.js';-->
+<!--                                    var s = document.getElementsByTagName('script')[0];-->
+<!--                                    s.parentNode.insertBefore(po, s);-->
+<!--                                }-->
+<!--                            )();-->
+<!--                        </script>-->
                     </div>
                 </div>
             </div>
@@ -117,6 +126,12 @@
             }
         }
     </script>
-
+    <script >
+        window.___gcfg = {
+            lang: 'tr',
+            parsetags: 'onload'
+        };
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
 </html>
