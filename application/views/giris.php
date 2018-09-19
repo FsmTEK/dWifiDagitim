@@ -13,6 +13,12 @@
     <scprit src="<?php echo base_url('elz/login.js');?>"></scprit>
     <link rel="stylesheet" href="<?php echo base_url('elz/login.css');?>">
 </head>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<!-- Place this tag where you want the widget to render. -->
+<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/112103088372396290250" data-rel="author"></div>
+
 <body>
 <div class="container">
     <div class="row">
@@ -47,7 +53,7 @@
                                 facebook
                             </p>
                         </div>
-                        <div class="fb-like" data-href="https://www.facebook.com/Developer-test-285103938878182/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
+                        <div class="fb-like" data-href="https://www.facebook.com/Developerdeneme-2141705205861651/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
                     </div>
                 </div>
                 <div id="fb-root"></div>
@@ -55,7 +61,7 @@
                         var js, fjs = d.getElementsByTagName(s)[0];
                         if (d.getElementById(id)) return;
                         js = d.createElement(s); js.id = id;
-                        js.src = 'https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v3.1&appId=321404218423728&autoLogAppEvents=1';
+                        js.src = 'https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v3.1';
                         fjs.parentNode.insertBefore(js, fjs);
                     }(document, 'script', 'facebook-jssdk'));</script>
                 <div class="col">
@@ -69,9 +75,7 @@
                                 twitter
                             </p>
                         </div>
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="mariuCSS">
-                            Tweet
-                        </a>
+                        <div><a class="twitter-follow-button" href="https://twitter.com/TwitterDev"> Follow @TwitterDev</a></div>
                         <script>
                             !function(d,s,id){
                                 var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
@@ -128,5 +132,4 @@
 
                 }
             </script>
-</body>
 </html>
