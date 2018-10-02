@@ -15,6 +15,7 @@
     <link href="<?php echo base_url('elz/vendor/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
 
     <!-- Custom fonts for this template-->
+
     <link href="<?php echo base_url('elz/vendor/fontawesome-free/css/all.min.css" rel="stylesheet');?>" type="text/css">
 
     <!-- Page level plugin CSS-->
