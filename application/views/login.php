@@ -22,10 +22,10 @@
         </div>
         <div class="col-md-12">
             <div class="col-md-6 ortala">
-                <button type="button" class="form-control" style="color: #53e3a6; background-color: white;" data-toggle="dropdown">Kayıtlı Kullanıcı<span class="caret"></span></button>
+                <button type="button" class="form-control" style="color: #bbf3c3; background-color: white;" data-toggle="dropdown">Kayıtlı Kullanıcı<span class="caret"></span></button>
                 <ul class="dropdown-menu">
                     <li>
-                        <form class="form">
+                        <form class="form" action="<?echo base_url('ilk/giris');?>">
                             <input type="text" placeholder="Kullanıcı Adı">
                             <input type="password" placeholder="Şifre">
                             <button type="submit" id="login-button" class="btn btn-outline-info">Giriş</button>
@@ -56,7 +56,6 @@
                         js.src = 'https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v3.1';
                         fjs.parentNode.insertBefore(js, fjs);
                     }(document, 'script', 'facebook-jssdk'));</script>
-
                 <div class="col">
                     <div class="twitter button">
                         <i class="icon">
@@ -71,7 +70,9 @@
 <!--                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729?text=Hadi gir artik" class="twitter-share-button">-->
 <!--                            Tweet-->
 <!--                        </a>-->
-                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729" class="twitter popup" data-show-count="false">Tweet</a>
+<!--                        <a href="https://twitter.com/arzumutlu2018/status/1039825897044553729" class="twitter popup" data-show-count="false">Tweet</a>-->
+                        <a href="https://twitter.com/arzumutlu2018/status/1039825897044553729" class="twitter-share-button orta" data-size="large" data-lang="tr" data-show-count="false">Tweet</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         <script>
                             !function(d,s,id){
                                 var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
@@ -96,7 +97,14 @@
 <!--                        <!-- Place this tag where you want the +1 button to render. -->
 <!--                        <div class="g-plusone" data-size="large">-->
 <!--                        </div>-->
-                        <div class="g-plusone" data-size="standart" data-href="https://plus.google.com/113596846715607788542/posts/hFZNdtK9nrv"></div>
+
+<!--                        <div class="g-plusone" data-size="standart" data-href="https://plus.google.com/u/0/113596846715607788542/posts/ZzZkUGZrGSu"></div>-->
+
+                        <!-- Bu etiketi, paylaş düğmesi adlı widget'ın oluşturulmasını istediğiniz yere ekleyin. -->
+                        <div class="g-plusone" data-action="share" data-width="120" data-href="https://plus.google.com/u/0/113596846715607788542/posts/ZzZkUGZrGSu"></div>
+                        <script src="https://apis.google.com/js/platform.js" async defer>
+                        </script>
+                        <script type="text/javascript">gapi.plus.go();</script>
 
                         <!-- Place this tag after the last +1 button tag. -->
 <!--                        <script type="text/javascript">-->
@@ -126,12 +134,7 @@
             }
         }
     </script>
-    <script >
-        window.___gcfg = {
-            lang: 'tr',
-            parsetags: 'onload'
-        };
-    </script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
 </body>
 </html>
