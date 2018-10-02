@@ -25,10 +25,11 @@
                 <button type="button" class="form-control" style="color: #bbf3c3; background-color: white;" data-toggle="dropdown">Kayıtlı Kullanıcı<span class="caret"></span></button>
                 <ul class="dropdown-menu">
                     <li>
-                        <form class="form" action="<?echo base_url('ilk/giris');?>">
+                        <form class="form" action="<?php echo base_url('ilk/giriskontrol');?>" method="post">
                             <input type="text" placeholder="Kullanıcı Adı">
                             <input type="password" placeholder="Şifre">
                             <button type="submit" id="login-button" class="btn btn-outline-info">Giriş</button>
+                            <h3 style="color: black;"><?php echo @$hata; ?></h3>
                         </form>
                     </li>
                 </ul>
