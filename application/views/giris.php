@@ -12,13 +12,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <scprit src="<?php echo base_url('elz/login.js');?>"></scprit>
     <link rel="stylesheet" href="<?php echo base_url('elz/login.css');?>">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126649522-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126649522-1');
+    </script>
+
 </head>
-
-<!-- Place this tag in your head or just before your close body tag. -->
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<!-- Place this tag where you want the widget to render. -->
-<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/112103088372396290250" data-rel="author"></div>
-
 <body>
 <div class="container">
     <div class="row">
@@ -75,15 +81,22 @@
                                 twitter
                             </p>
                         </div>
-                        <div><a class="twitter-follow-button" href="https://twitter.com/TwitterDev"> Follow @TwitterDev</a></div>
+<!--                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729? text_Hadi git artik" class="twitter-share-button">-->
+<!--                            Tweet-->
+<!--                        </a>-->
+<!--                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729" class="twitter popup" data-show-coount="false">Tweet</a>-->
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button orta" data-size="large" data-url="https://twitter.com/arzumutu2018/status/1039825897044553729" data-lang="tr" data-show-count="false">Tweet</a>
+                            <script async src="https://platform.twitter.com/widgeta.js" charset="utf-8"></script>
                         <script>
-                            !function(d,s,id){
-                                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-                                if(!d.getElementById(id)){
-                                    js=d.createElement(s);
-                                    js.id=id;
-                                    js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                               !function (d,s,id) {
+                                   var js,fjs=d.getElementByTagName(s)[0],p=/^http:/ .test(d.location ?'http':'https';)
+                                      if(!d.getElementById(id)){
+                                        js=d.createElement(s);
+                                        js.id=id;
+                                        js.src=p+'://platform.twitter.com/widgeta.js':fjs.parentNode.insertBefore(js,fjs);}}(document, 'script','twetter-wjs');
                         </script>
+                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729" class="twitter-follow-button" data-show-count="false">Beğen</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                     </div>
                 </div>
                 <div class="col">
