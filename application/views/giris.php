@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <scprit src="<?php echo base_url('elz/login.js');?>"></scprit>
     <link rel="stylesheet" href="<?php echo base_url('elz/login.css');?>">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126649522-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126649522-1');
+    </script>
+
 </head>
 <body>
 <div class="container">
@@ -25,9 +37,9 @@
                 <ul class="dropdown-menu">
                     <li>
                         <form class="form" method="post">
-                            <input type="text" style="border-color: black;" placeholder="Kullanıcı Adı">
-                            <input type="password" style="border-color: black;" placeholder="Şifre">
-                            <button type="submit"  style="border-color: black; width: 200px;" class="form-control ortala">Giriş</button>
+                            <input type="text" style="border-color: black; width:180px;" placeholder="Kullanıcı Adı">
+                            <input type="password" style="border-color: black; width:180px;" placeholder="Şifre">
+                            <button type="submit"  style="border-color: black; width:100px; margin-top: -40px" class="form-control orta">Giriş</button>
                         </form>
                     </li>
                 </ul>
@@ -47,10 +59,17 @@
                                 facebook
                             </p>
                         </div>
-                        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Freference%2Fplugins%2Flike&send=false&layout=button_count&width=80&show_faces=false&font&colorscheme=light&action=like&height=20&appId=568581339861351" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:20px;" allowTransparency="true">
-                        </iframe>
+                        <div class="fb-like" data-href="https://www.facebook.com/Developerdeneme-2141705205861651/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
                     </div>
                 </div>
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = 'https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v3.1';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
                 <div class="col">
                     <div class="twitter button">
                         <i class="icon">
@@ -62,17 +81,22 @@
                                 twitter
                             </p>
                         </div>
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="mariuCSS">
-                            Tweet
-                        </a>
+<!--                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729? text_Hadi git artik" class="twitter-share-button">-->
+<!--                            Tweet-->
+<!--                        </a>-->
+<!--                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729" class="twitter popup" data-show-coount="false">Tweet</a>-->
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button orta" data-size="large" data-url="https://twitter.com/arzumutu2018/status/1039825897044553729" data-lang="tr" data-show-count="false">Tweet</a>
+                            <script async src="https://platform.twitter.com/widgeta.js" charset="utf-8"></script>
                         <script>
-                            !function(d,s,id){
-                                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-                                if(!d.getElementById(id)){
-                                    js=d.createElement(s);
-                                    js.id=id;
-                                    js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                               !function (d,s,id) {
+                                   var js,fjs=d.getElementByTagName(s)[0],p=/^http:/ .test(d.location ?'http':'https';)
+                                      if(!d.getElementById(id)){
+                                        js=d.createElement(s);
+                                        js.id=id;
+                                        js.src=p+'://platform.twitter.com/widgeta.js':fjs.parentNode.insertBefore(js,fjs);}}(document, 'script','twetter-wjs');
                         </script>
+                        <a href="https://twitter.com/arzumutu2018/status/1039825897044553729" class="twitter-follow-button" data-show-count="false">Beğen</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                     </div>
                 </div>
                 <div class="col">
@@ -121,5 +145,4 @@
 
                 }
             </script>
-</body>
 </html>
