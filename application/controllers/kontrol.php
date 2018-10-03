@@ -14,7 +14,7 @@ class kontrol extends CI_Controller{
 
     public function index()
     {
-        echo "Miyase";
+        $this->load->view();
     }
 
 
