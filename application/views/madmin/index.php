@@ -92,10 +92,9 @@
             <span>Pages</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-            <div class="dropdown-divider"></div>
-            <h6 class="dropdown-header">Other Pages:</h6>
-            <a class="dropdown-item" href="404.php">404 Page</a>
-            <a class="dropdown-item" href="blank.php">Blank Page</a>
+            <h6 class="dropdown-header">Diğer Sayfalar:</h6>
+            <a class="dropdown-item" href="">404 Sayfa</a>
+            <a class="dropdown-item" href="<?=base_url('ilk/anasayfa1');?>">Boş Sayfa</a>
           </div>
         </li>
         <li class="nav-item">
@@ -734,7 +733,6 @@
         </div>
       </div>
     </div>
-
     <!-- Bootstrap core JavaScript-->
     <script src="<?=base_url('elz/vendor/jquery/jquery.min.js');?>"></script>
     <script src="<?=base_url('elz/vendor/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
@@ -749,7 +747,5 @@
     <!-- Demo scripts for this page-->
     <script src="<?=base_url('elz/js/demo/datatables-demo.js');?>"></script>
     <script src="<?=base_url('elz/js/demo/chart-area-demo.js');?>"></script>
-
   </body>
-
 </html>
