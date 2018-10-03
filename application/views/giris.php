@@ -36,7 +36,7 @@
                 <button type="button" class="form-control" style="color: black;" data-toggle="dropdown">Kayıtlı Kullanıcı<span class="caret"></span></button>
                 <ul class="dropdown-menu">
                     <li>
-                        <form class="form" method="post">
+                        <form class="form" action="<?=base_url('ilk/anasayfa');?>" method="post">
                             <input type="text" style="border-color: black; width:180px;" placeholder="Kullanıcı Adı">
                             <input type="password" style="border-color: black; width:180px;" placeholder="Şifre">
                             <button type="submit"  style="border-color: black; width:100px; margin-top: -40px" class="form-control orta">Giriş</button>
