@@ -8,6 +8,6 @@
     <title>Test</title>
 </head>
 <body>
-Test
+<a href="<?=base_url('kontrol/kontrolegit');?>">Tıkla Git <?=$adi;?></a>
 </body>
 </html>

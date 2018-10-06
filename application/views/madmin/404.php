@@ -18,7 +18,7 @@
   </head>
   <body id="page-top">
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-      <a class="navbar-brand mr-1" href="index.html">Start Bootstrap</a>
+      <a class="navbar-brand mr-1" href="">Bootstrapı Başlat</a>
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
       </button>
@@ -26,7 +26,7 @@
       <!-- Navbar Search -->
       <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+          <input type="text" class="form-control" placeholder="Arama..." aria-label="Search" aria-describedby="basic-addon2">
           <div class="input-group-append">
             <button class="btn btn-primary" type="button">
               <i class="fas fa-search"></i>
@@ -43,10 +43,10 @@
             <span class="badge badge-danger">9+</span>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Aksiyon</a>
+              <a class="dropdown-item" href="#">Başka bir eylem</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Burada başka bir şey</a>
           </div>
         </li>
         <li class="nav-item dropdown no-arrow mx-1">
@@ -55,10 +55,10 @@
             <span class="badge badge-danger">7</span>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Aksiyon</a>
+              <a class="dropdown-item" href="#">Başka bir eylem</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Burada başka bir şey</a>
           </div>
         </li>
         <li class="nav-item dropdown no-arrow">
@@ -66,10 +66,10 @@
             <i class="fas fa-user-circle fa-fw"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="#">Settings</a>
-            <a class="dropdown-item" href="#">Activity Log</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+              <a class="dropdown-item" href="#">Ayarlar</a>
+              <a class="dropdown-item" href="#">Etkinlik Günlüğü</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Çıkış</a>
           </div>
         </li>
       </ul>
@@ -83,34 +83,29 @@
         <li class="nav-item">
           <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span>
+            <span>Gösterge Paneli</span>
           </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-fw fa-folder"></i>
-            <span>Pages</span>
+            <span>Sayfalar</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-            <h6 class="dropdown-header">Login Screens:</h6>
-            <a class="dropdown-item" href="login.php">Login</a>
-            <a class="dropdown-item" href="register.php">Register</a>
-            <a class="dropdown-item" href="forgot-password.php">Forgot Password</a>
-            <div class="dropdown-divider"></div>
-            <h6 class="dropdown-header">Other Pages:</h6>
-            <a class="dropdown-item active" href="404.php">404 Page</a>
-            <a class="dropdown-item" href="blank.php">Blank Page</a>
+              <h6 class="dropdown-header">Diğer Sayfalar:</h6>
+              <a class="dropdown-item" href="<?=base_url('ilk/hata');?>">404 Sayfa</a>
+              <a class="dropdown-item" href="<?=base_url('ilk/bos');?>">Boş Sayfa</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="charts.php">
+          <a class="nav-link" href="<?=base_url('ilk/cizelge');?>">
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+            <span>Çizelgeler</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="tables.php">
             <i class="fas fa-fw fa-table"></i>
-            <span>Tables</span></a>
+            <span>Tablolar</span></a>
         </li>
       </ul>
 
@@ -121,17 +116,17 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="index.html">Dashboard</a>
+              <a href="index.html">Gösterge Paneli</a>
             </li>
-            <li class="breadcrumb-item active">404 Error</li>
+            <li class="breadcrumb-item active">404 Hata</li>
           </ol>
 
           <!-- Page Content -->
           <h1 class="display-1">404</h1>
-          <p class="lead">Page not found. You can
-            <a href="javascript:history.back()">go back</a>
-            to the previous page, or
-            <a href="index.html">return home</a>.</p>
+          <p class="lead">Sayfa bulunamadı. Yapabilirsin
+            <a href="javascript:history.back()">geri dön</a>
+              önceki sayfaya veya
+            <a href="index.html">eve dön</a>.</p>
 
         </div>
         <!-- /.container-fluid -->
@@ -161,15 +156,15 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ayrılmaya hazır?</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-body">Mevcut oturumunuzu sonlandırmaya hazırsanız, aşağıdaki "Çıkış"ı seçin.</div>
           <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.php">Logout</a>
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+            <a class="btn btn-primary" href="login.php">Çıkış</a>
           </div>
         </div>
       </div>

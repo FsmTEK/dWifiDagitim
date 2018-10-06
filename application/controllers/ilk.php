@@ -7,7 +7,6 @@ class ilk extends CI_Controller {
         parent::__construct();
         $this->load->model('ilk_model');
     }
-    ///
 
     public function emine()
     {
@@ -21,10 +20,22 @@ class ilk extends CI_Controller {
     {
         $this->load->view('madmin/index');
 	}
-    public function anasayfa1()
+
+    public function hata()
     {
         $this->load->view('madmin/404');
-    }
+	}
+
+    public function bos()
+    {
+        $this->load->view('madmin/blank');
+	}
+
+    public function cizelge()
+    {
+        $this->load->view('madmin/charts');
+	}
+
     public function giriskontrol()
     {
         $kadi = $this->input->post('kadi');

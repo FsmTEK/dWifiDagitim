@@ -18,7 +18,7 @@
   </head>
   <body id="page-top">
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-      <a class="navbar-brand mr-1" href="#">Start Bootstrap</a>
+      <a class="navbar-brand mr-1" href="#">Bootstrapı Başlat</a>
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
       </button>
@@ -26,7 +26,7 @@
       <!-- Navbar Search -->
       <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+          <input type="text" class="form-control" placeholder="Arama..." aria-label="Search" aria-describedby="basic-addon2">
           <div class="input-group-append">
             <button class="btn btn-primary" type="button">
               <i class="fas fa-search"></i>
@@ -43,10 +43,10 @@
             <span class="badge badge-danger">9+</span>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Aksiyon</a>
+            <a class="dropdown-item" href="#">Başka bir eylem</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Burada başka bir şey</a>
           </div>
         </li>
         <li class="nav-item dropdown no-arrow mx-1">
@@ -55,10 +55,10 @@
             <span class="badge badge-danger">7</span>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Aksiyon</a>
+              <a class="dropdown-item" href="#">Başka bir eylem</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Burada başka bir şey</a>
           </div>
         </li>
         <li class="nav-item dropdown no-arrow">
@@ -66,10 +66,10 @@
             <i class="fas fa-user-circle fa-fw"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="#">Settings</a>
-            <a class="dropdown-item" href="#">Activity Log</a>
+            <a class="dropdown-item" href="#">Ayarlar</a>
+            <a class="dropdown-item" href="#">Etkinlik Günlüğü</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Çıkış</a>
           </div>
         </li>
       </ul>
@@ -83,29 +83,29 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span>
+            <span>Gösterge Paneli</span>
           </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-fw fa-folder"></i>
-            <span>Pages</span>
+            <span>Sayfalar</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <h6 class="dropdown-header">Diğer Sayfalar:</h6>
-            <a class="dropdown-item" href="">404 Sayfa</a>
-            <a class="dropdown-item" href="<?=base_url('ilk/anasayfa1');?>">Boş Sayfa</a>
+            <a class="dropdown-item" href="<?=base_url('ilk/hata');?>">404 Sayfa</a>
+            <a class="dropdown-item" href="<?=base_url('ilk/bos');?>">Boş Sayfa</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="charts.php">
+          <a class="nav-link" href="<?=base_url('ilk/cizelge');?>">
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+            <span>Çizelgeler</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="tables.php">
             <i class="fas fa-fw fa-table"></i>
-            <span>Tables</span></a>
+            <span>Tablolar</span></a>
         </li>
       </ul>
 
@@ -116,9 +116,9 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="#">Dashboard</a>
+              <a href="#">Gösterge Paneli</a>
             </li>
-            <li class="breadcrumb-item active">Overview</li>
+            <li class="breadcrumb-item active">Genel Bakış</li>
           </ol>
 
           <!-- Icon Cards-->
@@ -129,10 +129,10 @@
                   <div class="card-body-icon">
                     <i class="fas fa-fw fa-comments"></i>
                   </div>
-                  <div class="mr-5">26 New Messages!</div>
+                  <div class="mr-5">26 Yeni Mesaj!</div>
                 </div>
                 <a class="card-footer text-white clearfix small z-1" href="#">
-                  <span class="float-left">View Details</span>
+                  <span class="float-left">Detayları göster</span>
                   <span class="float-right">
                     <i class="fas fa-angle-right"></i>
                   </span>
@@ -145,10 +145,10 @@
                   <div class="card-body-icon">
                     <i class="fas fa-fw fa-list"></i>
                   </div>
-                  <div class="mr-5">11 New Tasks!</div>
+                  <div class="mr-5"> 11 Yeni Görevler!</div>
                 </div>
                 <a class="card-footer text-white clearfix small z-1" href="#">
-                  <span class="float-left">View Details</span>
+                  <span class="float-left">Detayları göster</span>
                   <span class="float-right">
                     <i class="fas fa-angle-right"></i>
                   </span>
@@ -161,10 +161,10 @@
                   <div class="card-body-icon">
                     <i class="fas fa-fw fa-shopping-cart"></i>
                   </div>
-                  <div class="mr-5">123 New Orders!</div>
+                  <div class="mr-5"> 123 Yeni Siparişler!</div>
                 </div>
                 <a class="card-footer text-white clearfix small z-1" href="#">
-                  <span class="float-left">View Details</span>
+                  <span class="float-left">Detayları göster</span>
                   <span class="float-right">
                     <i class="fas fa-angle-right"></i>
                   </span>
@@ -177,10 +177,10 @@
                   <div class="card-body-icon">
                     <i class="fas fa-fw fa-life-ring"></i>
                   </div>
-                  <div class="mr-5">13 New Tickets!</div>
+                  <div class="mr-5">13 Yeni Biletler!</div>
                 </div>
                 <a class="card-footer text-white clearfix small z-1" href="#">
-                  <span class="float-left">View Details</span>
+                  <span class="float-left">Detayları göster</span>
                   <span class="float-right">
                     <i class="fas fa-angle-right"></i>
                   </span>
@@ -193,7 +193,7 @@
           <div class="card mb-3">
             <div class="card-header">
               <i class="fas fa-chart-area"></i>
-              Area Chart Example</div>
+                Alan Grafiği Örneği</div>
             <div class="card-body">
               <canvas id="myAreaChart" width="100%" height="30"></canvas>
             </div>
@@ -204,28 +204,28 @@
           <div class="card mb-3">
             <div class="card-header">
               <i class="fas fa-table"></i>
-              Data Table Example</div>
+                Veri Tablosu Örneği</div>
             <div class="card-body">
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Start date</th>
-                      <th>Salary</th>
+                      <th>Adı</th>
+                      <th>Pozisyon</th>
+                      <th>Ofis</th>
+                      <th>Yaş</th>
+                      <th>Başlama Tarihi</th>
+                      <th>Maaş</th>
                     </tr>
                   </thead>
                   <tfoot>
                     <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Start date</th>
-                      <th>Salary</th>
+                        <th>Adı</th>
+                        <th>Pozisyon</th>
+                        <th>Ofis</th>
+                        <th>Yaş</th>
+                        <th>Başlama Tarihi</th>
+                        <th>Maaş</th>
                     </tr>
                   </tfoot>
                   <tbody>
@@ -720,15 +720,15 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ayrılmaya hazır?</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-body">Mevcut oturumunuzu sonlandırmaya hazırsanız, aşağıdaki "Çıkış"ı seçin.</div>
           <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.php">Logout</a>
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
+            <a class="btn btn-primary" href="login.php">Çıkış</a>
           </div>
         </div>
       </div>

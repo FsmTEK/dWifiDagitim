@@ -14,7 +14,17 @@ class kontrol extends CI_Controller{
 
     public function index()
     {
-        $this->load->view();
+        $miem=array(
+            'adi'=>'Emine',
+            'kedi'=>'kablolu',
+        );
+        $this->load->view('gorunum',$miem);
+    }
+
+    public function kontrolegit()
+    {
+        echo "Geldin Miyase";
+
     }
 
 
