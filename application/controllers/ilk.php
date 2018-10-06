@@ -12,6 +12,7 @@ class ilk extends CI_Controller {
     {
         $this->load->view('giris');
 	}
+
     public function miyase()
     {
         $this->load->view('login');
