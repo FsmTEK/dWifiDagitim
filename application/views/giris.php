@@ -36,10 +36,11 @@
                 <button type="button" class="form-control" style="color: black;" data-toggle="dropdown">Kayıtlı Kullanıcı<span class="caret"></span></button>
                 <ul class="dropdown-menu">
                     <li>
-                        <form class="form" method="post">
-                            <input type="text" style="border-color: black; width:180px;" placeholder="Kullanıcı Adı">
-                            <input type="password" style="border-color: black; width:180px;" placeholder="Şifre">
-                            <button type="submit"  style="border-color: black; width:100px; margin-top: -40px" class="form-control orta">Giriş</button>
+                        <form class="form" action="<?=base_url('ilk/giriskontrol');?>" method="post">
+                            <input name="kadi" type="text" style="border-color: black; width:180px;  margin-right: 680px;" placeholder="Kullanıcı Adı">
+                            <input name="sifre" type="password" style="border-color: black; width:180px;  margin-left: 210px; margin-top: -65px;" placeholder="Şifre">
+                            <button type="submit"  style="border-color: black; width:100px; margin-top: -60px; margin-left: 422px;" class="form-control orta">Giriş</button>
+                            <h5 style="color: black;"><?php echo @$hata; ?></h5>
                         </form>
                     </li>
                 </ul>
@@ -61,6 +62,7 @@
                         </div>
                         <div class="fb-like" data-href="https://www.facebook.com/Developerdeneme-2141705205861651/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
                     </div>
+
                 </div>
                 <div id="fb-root"></div>
                 <script>(function(d, s, id) {

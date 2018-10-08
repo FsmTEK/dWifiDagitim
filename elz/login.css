@@ -145,7 +145,7 @@ form button:hover {
 .facebook iframe {
     display: block;
     position: absolute;
-    right: 16px;
+    right: -16px;
     top: 10px;
     z-index: 1;
 }
