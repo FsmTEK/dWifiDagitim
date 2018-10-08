@@ -18,7 +18,7 @@
   </head>
   <body id="page-top">
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-      <a class="navbar-brand mr-1" href="#">Bootstrapı Başlat</a>
+      <a class="navbar-brand mr-1" href="<?=base_url('ilk/anasayfa');?>">Bootstrapı Başlat</a>
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
       </button>
@@ -81,7 +81,7 @@
       <!-- Sidebar -->
       <ul class="sidebar navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="<?=base_url('ilk/anasayfa');?>">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Gösterge Paneli</span>
           </a>
@@ -103,7 +103,7 @@
             <span>Çizelgeler</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="tables.php">
+          <a class="nav-link" href="<?=base_url('ilk/tablo');?>">
             <i class="fas fa-fw fa-table"></i>
             <span>Tablolar</span></a>
         </li>
@@ -116,7 +116,7 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="index.html">Gösterge Paneli</a>
+              <a href="<?=base_url('ilk/anasayfa');?>">Gösterge Paneli</a>
             </li>
             <li class="breadcrumb-item active">Boş Sayfa</li>
           </ol>
@@ -154,7 +154,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ayrılmaya hazır?</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Ayrılmaya hazır mısınız?</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
@@ -162,7 +162,7 @@
           <div class="modal-body">Mevcut oturumunuzu sonlandırmaya hazırsanız, aşağıdaki "Çıkış"ı seçin.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
-            <a class="btn btn-primary" href="login.php">Çıkış</a>
+            <a class="btn btn-primary" href="<?=base_url('ilk/miyase');?>">Çıkış</a>
           </div>
         </div>
       </div>
