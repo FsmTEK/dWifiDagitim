@@ -1,5 +1,5 @@
 <?php
-class ilk_model extends CI_Model{
+class ilk_modelim extends CI_Model{
     public function __construct()
     {
         parent::__construct();
