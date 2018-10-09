@@ -139,10 +139,8 @@
             </div>
           </div>
         </footer>
-
       </div>
       <!-- /.content-wrapper -->
-
     </div>
     <!-- /#wrapper -->
 
@@ -177,7 +175,5 @@
     <script src="<?=base_url('elz/vendor/jquery-easing/jquery.easing.min.js');?>"></script>
     <!-- Custom scripts for all pages-->
     <script src="<?=base_url('elz/js/sb-admin.min.js');?>"></script>
-
   </body>
-
 </html>

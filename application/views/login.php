@@ -87,12 +87,12 @@
                 <div class="col">
                     <div class="google button">
                         <i class="icon">
-                            <i class="fa fa-google-plus">
+                            <i class="fa fa-instagram">
                             </i>
                         </i>
                         <div class="slide">
                             <p>
-                                google+
+                                    google+
                             </p>
                         </div>
 <!--                        <!-- Place this tag where you want the +1 button to render. -->
