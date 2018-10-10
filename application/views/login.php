@@ -92,33 +92,25 @@
                         </i>
                         <div class="slide">
                             <p>
-                                    google+
+                                    instagram
                             </p>
                         </div>
-<!--                        <!-- Place this tag where you want the +1 button to render. -->
-<!--                        <div class="g-plusone" data-size="large">-->
-<!--                        </div>-->
-
-<!--                        <div class="g-plusone" data-size="standart" data-href="https://plus.google.com/u/0/113596846715607788542/posts/ZzZkUGZrGSu"></div>-->
 
                         <!-- Bu etiketi, paylaş düğmesi adlı widget'ın oluşturulmasını istediğiniz yere ekleyin. -->
-                        <div class="g-plusone" data-action="share" data-width="120" data-href="https://plus.google.com/u/0/113596846715607788542/posts/ZzZkUGZrGSu"></div>
-                        <script src="https://apis.google.com/js/platform.js" async defer>
-                        </script>
-                        <script type="text/javascript">gapi.plus.go();</script>
+<!--                        <a href="http://Instagram.com/mercan.mutlu00" target=new><img src="http://in.sitekodlari.com/insta/14.png" border="0"></a>-->
 
-                        <!-- Place this tag after the last +1 button tag. -->
-<!--                        <script type="text/javascript">-->
-<!--                            (function() {-->
-<!--                                    var po = document.createElement('script');-->
-<!--                                    po.type = 'text/javascript';-->
-<!--                                    po.async = true;-->
-<!--                                    po.src = 'https://apis.google.com/js/plusone.js';-->
-<!--                                    var s = document.getElementsByTagName('script')[0];-->
-<!--                                    s.parentNode.insertBefore(po, s);-->
-<!--                                }-->
-<!--                            )();-->
-<!--                        </script>-->
+<!--                        <a href="http://Instagram.com/mercan.mutlu00" target=new><img src="http://in.sitekodlari.com/insta/4.png" border="0"></a>-->
+
+<!--                        <a href="https://www.instagram.com/mercan.mutlu00" target="_blank" title="New Window">Beğen</a>-->
+
+                        <!-- InstaWidget -->
+<!--                        <a href="https://instawidget.net/v/user/mercan.mutlu00" id="link-4094fd5c3d8cca2f4f67e83f1f547e20815432694069a1f48e4f027516f8b4b9">@mercan.mutlu00</a>-->
+<!--                        <script src="https://instawidget.net/js/instawidget.js?u=4094fd5c3d8cca2f4f67e83f1f547e20815432694069a1f48e4f027516f8b4b9&width=200px"></script>-->
+                        <!-- InstaWidget -->
+                        <!-- InstaWidget -->
+                        <a href="https://instawidget.net/v/user/mercan.mutlu00" id="link-a97ebbe382514a612b35bebe911a46f30483804919e5663e7bdbd7c3b25430cf">@mercan.mutlu00</a>
+                        <script src="https://instawidget.net/js/instawidget.js?u=a97ebbe382514a612b35bebe911a46f30483804919e5663e7bdbd7c3b25430cf&width=100px"></script>
+
                     </div>
                 </div>
             </div>
