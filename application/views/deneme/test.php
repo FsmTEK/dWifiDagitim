@@ -14,9 +14,9 @@
 <body>
 <br>
 <label> Seciniz: </label>
-<Select id="colorselector" style="background-color: white; width: 250px; height: 30px;">
-    <option value="kurumsal">Kurumsal</option>
-    <option value="sahis">Şahıs</option>
+<Select id="secim" style="background-color: white; width: 250px; height: 30px;">
+    <option value="1">Kurumsal</option>
+    <option value="2">Şahıs</option>
 </Select>
 <br>
 <br>
@@ -36,21 +36,21 @@
 </div>
 
 <script type="text/javascript">
-    $(function() {
-        $('#colorselector').change(function(){
-            $('.colors').hide();
-            $('#' + $(this).val()).show();
+    $(document).ready(function () {
+        $('#kurumsal').hide();
+        $('#sahis').hide();
+        $('#secim').change(function () {
+            var s=$(this).val();
+            if (s==1){
+                $('#kurumsal').show();
+                $('#sahis').hide();
+            }else{
+                $('#sahis').show();
+               $('#kurumsal').hide();
+            }
         });
     });
 </script>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $("select#colorselector").change(function(){
-            var Seciniz = $("#colorselector option:selected").val();
-            alert("Yönlendirildiniz!..." + Seciniz);
-        });
-    });
-</script>
 </body>
 </html>
