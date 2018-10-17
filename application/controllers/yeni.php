@@ -16,18 +16,24 @@ class yeni extends CI_Controller{
         $sayı1 = 30;
         $sayı2 = 50;
         $sonuc = 70;
+
         echo "$sayı1 + $sayı2 = $sonuc";
 
     }
 
     public function deneme()
     {
-        $cicek = ' gül';
+        $cicek = ' papatya';
         echo "benim en sevdiğim çiçek".$cicek;
     }
 
     public function tekrar()
     {
+        $ad = "miyase";
+        $soyad = "cicek";
+        $yas = "18";
+
+        echo $ad." ".$soyad." "." ".$yas;
 
     }
 }
