@@ -13,12 +13,11 @@ class yeni extends CI_Controller{
 
     public function miyase()
     {
-        $sayı1 = 30;
-        $sayı2 = 50;
+        $sayi1 = 30;
+        $sayi2 = 50;
         $sonuc = 70;
 
-        echo "$sayı1 + $sayı2 = $sonuc";
-
+        echo "$sayi1 + $sayi2 = $sonuc";
     }
 
     public function deneme()
@@ -34,7 +33,6 @@ class yeni extends CI_Controller{
         $yas = "18";
 
         echo $ad." ".$soyad." "." ".$yas;
-
     }
 }
 

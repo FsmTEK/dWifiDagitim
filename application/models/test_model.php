@@ -13,7 +13,8 @@ class test_model extends CI_Model{
 
     public function kurum()
     {
-        $this->db->get('deneme');
-
+        $this->db->get('test');
     }
+
+
 }
