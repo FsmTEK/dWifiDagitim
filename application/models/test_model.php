@@ -11,10 +11,7 @@ class test_model extends CI_Model{
         parent::__construct();
     }
 
-    public function kurum()
-    {
-        $this->db->get('test');
-    }
+
 
 
 }
