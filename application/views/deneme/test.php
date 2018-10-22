@@ -24,18 +24,16 @@ kadi = :kadi,
 sifre = :sifre,
 eposta = :eposta");
 $ekle = $sorgu->execute(array(
-    "sifre" => "123456987",
-    "eposta" => "ayse@gmail.com",
-    "kadi" => "ayse"
+    "sifre" => "123",
+    "eposta" => "mine@gmail.com",
+    "kadi" => "mine"
 ));
 if ( $ekle ){
     $last_id = $veri->lastInsertId();
     print "insert işlemi başarılı!";
 }
 ?>
-<br>
-<br>
-<br>
+
 <!doctype html>
 <html lang="tr">
 <head>

@@ -11,6 +11,11 @@ class yeni extends CI_Controller{
         $this->load->view('deneme/test');
     }
 
+    public function cicek()
+    {
+        $this->load->view('deneme/ilk');
+    }
+
     public function miyase()
     {
         $sayi1 = 30;
